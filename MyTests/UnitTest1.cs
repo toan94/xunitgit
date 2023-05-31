@@ -37,5 +37,12 @@ namespace MyTests
         {
             Assert.False(_sv1.b);
         }
+        [Theory]
+        [InlineData(1,2)]
+        public void Test5(int x, int y)
+        {
+            Assert.True(_sv1.b);
+            Assert.False(_sv1.b);
+        }
     }
 }
