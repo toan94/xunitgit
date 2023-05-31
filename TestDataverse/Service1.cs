@@ -13,9 +13,6 @@ namespace TestDataverse
         {
             b = false;
         }
-        public bool getBool()
-        {
-            return true;
-        }
+
     }
 }
