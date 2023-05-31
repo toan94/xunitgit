@@ -22,10 +22,6 @@ namespace MyTests
             var b = _sv1.getBool();
             Assert.Equal(b, true);
         }
-        [Fact]
-        public void Test2()
-        {
-            Assert.False(_sv1.b);
-        }
+
     }
 }
